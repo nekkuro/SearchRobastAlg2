@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\bin\Release\SearchRobastAlg.exe.config
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\bin\Release\SearchRobastAlg.exe
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\bin\Release\SearchRobastAlg.pdb
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\MainWindow.g.cs
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\App.g.cs
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\SearchRobastAlg_MarkupCompile.cache
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\SearchRobastAlg_MarkupCompile.lref
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\MainWindow.baml
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\SearchRobastAlg.g.resources
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\SearchRobastAlg.Properties.Resources.resources
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\SearchRobastAlg.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\SearchRobastAlg.exe
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\SearchRobastAlg.pdb
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\Release\GeneratedInternalTypeHelper.g.cs

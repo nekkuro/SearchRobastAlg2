@@ -1,0 +1,34 @@
+﻿<Window x:Class="SearchRobastAlg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SearchRobastAlg"
+        mc:Ignorable="d"
+        Height="350" Width="525"
+        >
+    
+    <Grid>
+        <TabControl>
+            <TabItem Header="Изображение">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Image Width="Auto" Height="Auto" Grid.Row="0" Name="image"/>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="Открыть" Grid.Column="0" Click="Load"/>
+                        <Button Content="Обработать" Grid.Column="1" Click="Calculate"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Настройки"/>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x86\Release\MainWindow.g.cs
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x86\Release\App.g.cs
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x86\Release\SearchRobastAlg_MarkupCompile.cache
+c:\users\user\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x86\Release\SearchRobastAlg_MarkupCompile.lref

@@ -1,0 +1,14 @@
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\MainWindow.g.cs
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\App.g.cs
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg_MarkupCompile.cache
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg_MarkupCompile.lref
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\bin\x64\Debug\SearchRobastAlg.exe.config
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\bin\x64\Debug\SearchRobastAlg.exe
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\bin\x64\Debug\SearchRobastAlg.pdb
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\MainWindow.baml
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg.g.resources
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg.exe
+C:\Users\User\documents\visual studio 2017\Projects\SearchRobastAlg\SearchRobastAlg\obj\x64\Debug\SearchRobastAlg.pdb
