@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SearchRobastAlg.Filters.Param;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -9,26 +10,13 @@ using System.Threading.Tasks;
 
 namespace SearchRobastAlg.Filters
 {
-    public class Gauss : IFilter
+    public class Gauss : IFilter<GaussParam>
     {
-        public Gauss()
+        public Bitmap ApplyFilter(Bitmap _srcImage, GaussParam param)
         {
-            SetParam = false;
-        }
-        private double[,] _kernel;
-        private Bitmap _srcImage;
-
-        public override void SetFilterParam(Bitmap img, params object[] param)
-        {
-            _kernel = GaussianBlur((int)param[0], Convert.ToDouble(param[1]));
-            _srcImage = img;
-            SetParam = true;
-        }
-
-        public override Bitmap ApplyFilter()
-        {
-            if (!SetParam)
+            if (param == null)
                 return null;
+            var _kernel = GaussianBlur(param.Size, param.Weight);
             var width = _srcImage.Width;
             var height = _srcImage.Height;
             var srcData = _srcImage.LockBits(new Rectangle(0, 0, width, height),

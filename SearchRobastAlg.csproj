@@ -99,6 +99,15 @@
     <Compile Include="Filters\Gauss.cs" />
     <Compile Include="Filters\IFilter.cs" />
     <Compile Include="Filters\Median.cs" />
+    <Compile Include="Filters\Param\GaussParam.cs" />
+    <Compile Include="Filters\HodgesLeman.cs" />
+    <Compile Include="Filters\Param\HodgesLemanParam.cs" />
+    <Compile Include="Filters\Param\IParam.cs" />
+    <Compile Include="Filters\Param\MedianParam.cs" />
+    <Compile Include="Filters\Param\TikhonovParam.cs" />
+    <Compile Include="Filters\Param\WienerParam.cs" />
+    <Compile Include="Filters\Tikhonov.cs" />
+    <Compile Include="Filters\Wiener.cs" />
     <Compile Include="Research.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

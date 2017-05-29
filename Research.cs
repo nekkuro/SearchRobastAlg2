@@ -9,27 +9,28 @@ using System.Runtime.InteropServices;
 using System.IO;
 using SearchRobastAlg.Filters;
 using System.Windows;
+using SearchRobastAlg.Filters.Param;
 
 namespace SearchRobastAlg
 {
-    public enum FilterList
-    {
-        Gauss,
-        Median
-    }
-
     public static class Research
     {
-        public static IFilter SetFilter(FilterList filter)
+        public static IFilter<IParam> SetFilter(FilterList filter)
         {
             try
             {
                 switch (filter)
                 {
                     case FilterList.Gauss:
-                        return new Gauss();
+                        return (IFilter<IParam>)new Gauss();
                     case FilterList.Median:
-                        return new Median();
+                        return (IFilter<IParam>)new Median();
+                    case FilterList.HodgesLeman:
+                        return (IFilter<IParam>)new HodgesLeman();
+                    case FilterList.Tikhonov:
+                        return (IFilter<IParam>)new Tikhonov();
+                    case FilterList.Wiener:
+                        return (IFilter<IParam>)new Wiener();
                 }
             }
             catch (Exception e)
@@ -43,35 +44,15 @@ namespace SearchRobastAlg
         public static void ApplyFilters(string filePath)
         {
             var original = new Bitmap(filePath);
-            var noiseImg = Noise(original);
+            var noiseImg = Noisiness.SimpleNoise(original, 25);
             noiseImg.Save(@"C:\1\noise.jpg");
 
-            var gauss = Research.SetFilter(FilterList.Gauss);
-            gauss.SetFilterParam(noiseImg, 3, 2);
-            gauss.ApplyFilter().Save(@"C:\1\gauss.jpg");
+            var gauss = SetFilter(FilterList.Gauss);
+            gauss.ApplyFilter(noiseImg, new GaussParam {Size=3, Weight =2}).Save(@"C:\1\gauss.jpg");
 
 
-            var median = Research.SetFilter(FilterList.Median);
-            median.SetFilterParam(noiseImg, 2);
-            median.ApplyFilter().Save(@"C:\1\median.jpg");
-        }
-
-        private static Bitmap Noise(Bitmap img)
-        {
-            var noiseImg = img;
-            var rnd = new Random();
-
-            for (var x = 0; x < img.Width; x++)
-            {
-                for (var y = 0; y < img.Height; y++)
-                {
-                    if (rnd.Next(0, 4) != 3)
-                        continue;
-                    var num = rnd.Next(0, 256);
-                    noiseImg.SetPixel(x, y, System.Drawing.Color.FromArgb(255, num, num, num));
-                }
-            }
-            return noiseImg;
-        }
+            var median = SetFilter(FilterList.Median);
+            median.ApplyFilter(noiseImg, new MedianParam { Size = 2}).Save(@"C:\1\median.jpg");
+        }        
     }
 }

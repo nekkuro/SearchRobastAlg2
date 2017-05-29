@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace SearchRobastAlg
 {
+    public enum FilterList
+    {
+        Gauss,
+        Median,
+        HodgesLeman,
+        Tikhonov,
+        Wiener
+    }
+
     class Colors
     {
         private double _blue;

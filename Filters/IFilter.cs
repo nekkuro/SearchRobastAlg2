@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SearchRobastAlg.Filters.Param;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -7,12 +8,8 @@ using System.Threading.Tasks;
 
 namespace SearchRobastAlg
 {
-    public abstract class IFilter
+    public interface IFilter<TParam> where TParam : IParam
     {
-        private bool _setParam;
-        public bool SetParam { get => _setParam; set { _setParam = value; } }
-        
-        public abstract Bitmap ApplyFilter();
-        public abstract void SetFilterParam(Bitmap img, params object [] param);
+        Bitmap ApplyFilter(Bitmap img, TParam param);
     }
 }

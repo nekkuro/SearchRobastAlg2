@@ -1,0 +1,14 @@
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\bin\Debug\SearchRobastAlg.exe.config
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\bin\Debug\SearchRobastAlg.exe
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\bin\Debug\SearchRobastAlg.pdb
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg.csprojResolveAssemblyReference.cache
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\MainWindow.g.cs
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\App.g.cs
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg_MarkupCompile.cache
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg_MarkupCompile.lref
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\MainWindow.baml
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg.g.resources
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg.Properties.Resources.resources
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg.csproj.GenerateResource.Cache
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg.exe
+D:\My Programs\C#\SearchAlg\SearchRobastAlg2\obj\Debug\SearchRobastAlg.pdb

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SearchRobastAlg.Filters.Param;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -7,26 +8,13 @@ using System.Threading.Tasks;
 
 namespace SearchRobastAlg.Filters
 {
-    class Median : IFilter
+    class Median : IFilter<MedianParam>
     {
-        public Median()
+        public Bitmap ApplyFilter(Bitmap _srcImage, MedianParam param)
         {
-            SetParam = false;
-        }
-
-        private int _size;
-        private Bitmap _srcImage;
-
-        public override void SetFilterParam(Bitmap img, params object[] param)
-        {
-            _size = (int)param[0];
-            _srcImage = img;
-            SetParam = true;
-        }
-        public override Bitmap ApplyFilter()
-        {
-            if (!SetParam)
+            if (param == null)
                 return null;
+            var _size = param.Size;
             var tempBitmap = _srcImage;
             var newBitmap = new Bitmap(tempBitmap.Width, tempBitmap.Height);
             var newGraphics = Graphics.FromImage(newBitmap);
